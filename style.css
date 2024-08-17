@@ -1,0 +1,72 @@
+body{
+    background: #130f40;
+}
+.app{
+    width: 90%;
+    max-width: 600px;
+    background-color:#c7ecee;
+    margin: 50px auto 50px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.app h1{
+    border-bottom: 2px solid #130f40;
+    padding: 0px 0px 30px 0px;
+}
+.btn{
+    width: 100%;
+    padding: 15px;
+    margin: 20px 0 0 0;
+    border-radius: 4px;
+    border: 1px solid black;
+    text-align: left;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.4s;
+
+}
+.btn:hover:not([disabled]){
+    background-color: black;
+    color: white;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#nextbutton{
+    background-color: #130f40;
+    width: 150px;
+    border-radius: 4px;
+    border: 2px solid black;
+    margin: 20px auto 20px;
+    padding: 10px;
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    display:block;
+    cursor: pointer;
+    transition: all 0.4s;
+   
+    
+}
+#nextbutton:hover{
+    background-color: #535c68;
+    /* transform: translate(-1000px); */
+}
+.correct{
+    background-color: #36e381;
+}
+.incorrect{
+    background-color: #ff9393;
+}
+@media (max-width:412px){
+    .app{
+        width:40%;
+    }
+}
+#timer{
+    text-align: right;
+   
+}
